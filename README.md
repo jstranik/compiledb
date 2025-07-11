@@ -21,10 +21,9 @@ YCM-generator's fake-toolchanin approach.
 ```
 # pip install compiledb
 ```
-- Supports Python 2.x and 3.x (for now, tested only with 2.7 and 3.6 versions)
+- Supports Python >= 3.3
 - For bash completion support, add the content of `sh-completion/compiledb.bash` file
   to your `.bashrc` file, for example.
-- _ZSH completion coming soon :)_
 
 ## Usage
 
@@ -102,6 +101,9 @@ Patches are always welcome :)
 ## License
 GNU GPLv3
 
+## Related Project
+[compiledb-go]: compiledb go version
+
 [compdb]: https://clang.llvm.org/docs/JSONCompilationDatabase.html
 [ycm]: https://github.com/Valloric/YouCompleteMe
 [rtags]: https://github.com/Andersbakken/rtags
@@ -117,3 +119,4 @@ GNU GPLv3
 [deoplete]: https://github.com/Shougo/deoplete.nvim
 [ccls]: https://github.com/MaskRay/ccls
 [ale]: https://github.com/w0rp/ale
+[compiledb-go]: https://github.com/fcying/compiledb-go
